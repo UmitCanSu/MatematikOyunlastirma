@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:title="Biirnci">
+        <menu>
+            <item android:id="@+id/menu_Rozetler" android:title="Rozetler"></item>
+        </menu>
+    </item>
+    <item  android:title="İkinci">
+    <menu>
+        <item android:id="@+id/menu_Profil" android:title="Profil"></item>
+        <item
+            android:id="@+id/menu_Ayarlar"
+            android:title="Ayarlar"
+            android:enabled="true"
+            android:visible="false"></item>
+    </menu>
+    </item>
+
+</menu>
